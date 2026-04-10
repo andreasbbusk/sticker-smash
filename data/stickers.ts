@@ -44,6 +44,12 @@ export const stickers: Sticker[] = [
     description: "A simple happy sticker for light, casual photo edits.",
     image: require("../assets/images/emoji6.png") as ImageSourcePropType,
   },
+  {
+    id: "art",
+    name: "Art palette",
+    description: "A art palette sticker for photos that need a little extra creativity.",
+    image: require("../assets/images/art.png") as ImageSourcePropType,
+  },
 ];
 
 export function getStickerById(id: string) {
